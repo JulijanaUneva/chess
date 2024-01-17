@@ -1,0 +1,24 @@
+.chess-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 960px;
+    border: 5px solid brown;
+    
+}
+
+.white {
+    width: 120px;
+    height: 120px;
+    background-color: #f0d9b5;
+    font-size: 100px;
+    text-align: center;
+}
+
+.black {
+    width: 120px;
+    height: 120px;
+    background-color: #b58863;
+    font-size: 100px;
+    text-align: center;
+}
